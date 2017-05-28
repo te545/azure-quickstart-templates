@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "dnsNamePrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "kubernetes"
     },
     "agentCount": {
       "value": 1
@@ -12,7 +12,7 @@
       "value": "Standard_A2"
     },
     "linuxAdminUsername": {
-      "value": "azureuser"
+      "value": "kubeuser"
     },
     "orchestratorType": {
       "value": "Kubernetes"
@@ -21,13 +21,13 @@
       "value": 1
     },
     "sshRSAPublicKey": {
-      "value": "GEN-SSH-PUB-KEY"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAppU0n8CzUQ3bjH4us2k1nFVCLkbi3H1n30SBr1GMarVfG18prjnL6wob9XFVOOrEY/iUO/bNoy9wMsBeNySDolRUVcQZGAFVbGgbR4wQx5vgJ1AH4ZgOs0GrFLr8K9JYifq6z0ajnsjUXP/v/KnxVTWwao9+oMO5D/hy6EJGgH/5o9rRL/4/XtWvqW6MsRgVmeprDGw1Bl/NT7TYobHdy/jPGakesf7JMzb8K72GWg43NAu+k+wQaH2jM/oSn4h/S8mn4Tb60y5nMCYAI/q/yr27ngT/3ktyii9gcXF7zFj709DSuPUQpmxRvRpvC4W36avq4ZJ/VHQRfEuqOxv6vQ== rsa-key-20170528 ssh kubeuser@40.87.61.239"
     },
     "servicePrincipalClientId": {
-      "value": "GEN-UNIQUE"
+      "value": "1b281f89-bf39-473f-92cc-8659b7ebadb6"
     },
     "servicePrincipalClientSecret": {
-      "value": "GEN-UNIQUE"
+      "value": "3b1e3065-8f5f-49f9-b4c9-98e771455397"
     }
   }
 }
